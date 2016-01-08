@@ -49,4 +49,20 @@
     <imgUrl>https://i.scdn.co/image/0bf4654d68eaf74f672bbf91bfb5c28e8b411766</imgUrl>
     <albumUrl>https://open.spotify.com/album/5JB6Fu2jgAqULiCijNjfN2</albumUrl>
   </album>
+  <album ID="138">
+    <albumName>Alive 2007</albumName>
+    <artist>Daft Punk</artist>
+    <year>2007</year>
+    <numTracks>13</numTracks>
+    <imgUrl>https://i.scdn.co/image/5434a3f4cb2b2bae89a92c9d59a921efef1d6058</imgUrl>
+    <albumUrl>https://open.spotify.com/album/7u6zL7kqpgLPISZYXNTgYk</albumUrl>
+  </album>
+  <album ID="139">
+    <albumName>A Thousand Suns</albumName>
+    <artist>Linkin Park</artist>
+    <year>2010</year>
+    <numTracks>16</numTracks>
+    <imgUrl>https://i.scdn.co/image/70442fa95b073991e2bee9e3b70500a06a0ca085</imgUrl>
+    <albumUrl>https://open.spotify.com/album/4i72nO5bkn1558MMvx29qE</albumUrl>
+  </album>
 </albums>

@@ -27,7 +27,7 @@
 		$numTracks = $outputAsJson['tracks']['total'];		
 	}
 
-	function saveToXml($output) {
+	function saveToXml($output, $searchFor) {
 		
 		$dom = new DomDocument('1.0', 'UTF-8');
 		$xslt = $dom->createProcessingInstruction('xml-stylesheet', 'type="text/xsl" href="albumfound.xsl"');
@@ -36,9 +36,14 @@
 		$dom->appendChild($xslt);
 		$root = $dom->appendChild($dom->createElement('albums'));
 
+		if($searchFor == 'artist') 
+			$data = $output['albums']['items'];
+		else
+			$data = $output['items'];
+
 		//var_dump($output);
 		$counter = 1;
-		foreach ($output['albums']['items'] as $album) {
+		foreach ($data as $album) {
 
 			$url = 'https://api.spotify.com/v1/albums/' . $album['id'];
 
@@ -85,27 +90,43 @@
 		$dom->save('xml/albumlib.xml');
 	}
 
-	//ini_set('display_errors', 1);	
-
-
-	$albumName = str_replace(' ', '+', $albumName);
-	$artist = str_replace(' ', '+', $artist);
+	echo "<br> " . $albumName . " - " . $artist . "<br>";
 
 	if($artist == 'artist' || $artist == '') {
+		echo "first";
+		$albumName = str_replace(' ', '+', $albumName);
+
 		$url = 'https://api.spotify.com/v1/search?q=album%3A'. $albumName .'&type=album';
 
 		$output = fetchAsJson($url);
 
-		saveToXml($output);
+		saveToXml($output, 'artist');
 
 		$edit_id = -1;
 		include 'foundAlbums.php';
 
-		$imgUrl = '../img/placeholder.png';
-		$albumUrl = 'https://open.spotify.com/album/404';
+	} else if($albumName == 'albumName' || $albumName == ''){
+
+		$artist = str_replace(' ', '+', $artist);
+
+		$url = 'https://api.spotify.com/v1/search?q='. $artist .'&type=artist';
+
+		$output = fetchAsJson($url);
+
+		$url = 'https://api.spotify.com/v1/artists/' . $output['artists']['items'][0]['id'] . '/albums?album_type=album';
+
+		$output = fetchAsJson($url);
+
+		saveToXml($output, 'album');
+		
+		$edit_id = -1;
+		include 'foundAlbums.php';
 
 	} else {
-
+		
+		echo "last";
+		$albumName = str_replace(' ', '+', $albumName);
+		$artist = str_replace(' ', '+', $artist);
 
 		$url = 'https://api.spotify.com/v1/search?q=album%3A'. $albumName .'+artist%3A' . $artist. '&type=album';
 	
@@ -118,8 +139,7 @@
 		if($outputAsJson['albums']['total'] == 0) {
 			$imgUrl = '../img/placeholder.png';
 			$albumUrl = 'https://open.spotify.com/album/404';
-		}
-		else {
+		} else {
 
 			echo $albumID = $outputAsJson['albums']['items'][0]['id'];
 			getAlbumInfo($year, $numTracks, $albumID);

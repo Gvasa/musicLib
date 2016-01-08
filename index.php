@@ -50,7 +50,7 @@
 	                   	<form action="insertEntry.php" method="POST">
 	                   		<div class="row">
 	                   			<div class="col-lg-12 text-center top-pad-4px">
-									<p class="text-muted">Album </p><input type="text" name="albumName" value="" required/>
+									<p class="text-muted">Album </p><input type="text" name="albumName" value=""/>
 								</div>
 							</div>
 							<div class="row">
