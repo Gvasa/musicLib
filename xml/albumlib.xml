@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="albumlib.xsl"?>
+<albums>
+  <album ID="132">
+    <albumName>Discover Bethel Music</albumName>
+    <artist>Bethel Music</artist>
+    <year>2013</year>
+    <numTracks>16</numTracks>
+    <imgUrl>https://i.scdn.co/image/1f50b212239cf69e60fa4f6eca3492589f60a974</imgUrl>
+    <albumUrl>https://open.spotify.com/album/0fonUNUchRa1Ip1UJtzfrs</albumUrl>
+  </album>
+  <album ID="133">
+    <albumName>Black Holes And Revelations</albumName>
+    <artist>Museasdasd</artist>
+    <year>2006</year>
+    <numTracks>12</numTracks>
+    <imgUrl>https://i.scdn.co/image/cc938203606c1673a4e32334967f3621ed6769fe</imgUrl>
+    <albumUrl>https://open.spotify.com/album/0lw68yx3MhKflWFqCsGkIs</albumUrl>
+  </album>
+  <album ID="134">
+    <albumName>Meteora</albumName>
+    <artist>Linkin Park</artist>
+    <year>2003</year>
+    <numTracks>13</numTracks>
+    <imgUrl>https://i.scdn.co/image/833b73fcf52d97187d891f7d8f77441d52d6927b</imgUrl>
+    <albumUrl>https://open.spotify.com/album/4Gfnly5CzMJQqkUFfoHaP3</albumUrl>
+  </album>
+  <album ID="135">
+    <albumName>Discovery</albumName>
+    <artist>Daft Punk</artist>
+    <year>2001</year>
+    <numTracks>14</numTracks>
+    <imgUrl>https://i.scdn.co/image/1a9dab25976c706fffccb6bf2cf8a6f5eadd0d29</imgUrl>
+    <albumUrl>https://open.spotify.com/album/2noRn2Aes5aoNVsU6iWThc</albumUrl>
+  </album>
+  <album ID="136">
+    <albumName>Meteora</albumName>
+    <artist>Linkin Park</artist>
+    <year>2003</year>
+    <numTracks>13</numTracks>
+    <imgUrl>https://i.scdn.co/image/833b73fcf52d97187d891f7d8f77441d52d6927b</imgUrl>
+    <albumUrl>https://open.spotify.com/album/4Gfnly5CzMJQqkUFfoHaP3</albumUrl>
+  </album>
+  <album ID="137">
+    <albumName>Discovery</albumName>
+    <artist>Plexxus</artist>
+    <year>2015</year>
+    <numTracks>7</numTracks>
+    <imgUrl>https://i.scdn.co/image/0bf4654d68eaf74f672bbf91bfb5c28e8b411766</imgUrl>
+    <albumUrl>https://open.spotify.com/album/5JB6Fu2jgAqULiCijNjfN2</albumUrl>
+  </album>
+</albums>

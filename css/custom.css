@@ -1,0 +1,23 @@
+.smallIcon {
+	font-size: 2px;
+}
+
+.top-pad-4px {
+	padding-top: 4px;
+}
+
+.bg-white {
+	background-color: #fff;
+}
+
+.custom-hover figure {
+	background-image: url("../img/hover.png")
+}
+.custom-hover figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.custom-hover figure:hover img {
+	opacity: .5;
+}
