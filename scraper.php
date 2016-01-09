@@ -90,10 +90,7 @@
 		$dom->save('xml/albumlib.xml');
 	}
 
-	echo "<br> " . $albumName . " - " . $artist . "<br>";
-
 	if($artist == 'artist' || $artist == '') {
-		echo "first";
 		$albumName = str_replace(' ', '+', $albumName);
 
 		$url = 'https://api.spotify.com/v1/search?q=album%3A'. $albumName .'&type=album';
@@ -124,7 +121,6 @@
 
 	} else {
 		
-		echo "last";
 		$albumName = str_replace(' ', '+', $albumName);
 		$artist = str_replace(' ', '+', $artist);
 

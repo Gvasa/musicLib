@@ -1,29 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="albumlib.xsl"?>
 <albums>
-  <album ID="132">
-    <albumName>Discover Bethel Music</albumName>
-    <artist>Bethel Music</artist>
-    <year>2013</year>
-    <numTracks>16</numTracks>
-    <imgUrl>https://i.scdn.co/image/1f50b212239cf69e60fa4f6eca3492589f60a974</imgUrl>
-    <albumUrl>https://open.spotify.com/album/0fonUNUchRa1Ip1UJtzfrs</albumUrl>
-  </album>
   <album ID="133">
     <albumName>Black Holes And Revelations</albumName>
-    <artist>Museasdasd</artist>
+    <artist>Muse</artist>
     <year>2006</year>
     <numTracks>12</numTracks>
     <imgUrl>https://i.scdn.co/image/cc938203606c1673a4e32334967f3621ed6769fe</imgUrl>
     <albumUrl>https://open.spotify.com/album/0lw68yx3MhKflWFqCsGkIs</albumUrl>
-  </album>
-  <album ID="134">
-    <albumName>Meteora</albumName>
-    <artist>Linkin Park</artist>
-    <year>2003</year>
-    <numTracks>13</numTracks>
-    <imgUrl>https://i.scdn.co/image/833b73fcf52d97187d891f7d8f77441d52d6927b</imgUrl>
-    <albumUrl>https://open.spotify.com/album/4Gfnly5CzMJQqkUFfoHaP3</albumUrl>
   </album>
   <album ID="135">
     <albumName>Discovery</albumName>
@@ -41,28 +25,28 @@
     <imgUrl>https://i.scdn.co/image/833b73fcf52d97187d891f7d8f77441d52d6927b</imgUrl>
     <albumUrl>https://open.spotify.com/album/4Gfnly5CzMJQqkUFfoHaP3</albumUrl>
   </album>
-  <album ID="137">
-    <albumName>Discovery</albumName>
-    <artist>Plexxus</artist>
-    <year>2015</year>
-    <numTracks>7</numTracks>
-    <imgUrl>https://i.scdn.co/image/0bf4654d68eaf74f672bbf91bfb5c28e8b411766</imgUrl>
-    <albumUrl>https://open.spotify.com/album/5JB6Fu2jgAqULiCijNjfN2</albumUrl>
+  <album ID="140">
+    <albumName>Magical Mystery Tour</albumName>
+    <artist>Beatles</artist>
+    <year>1967</year>
+    <numTracks>11</numTracks>
+    <imgUrl>https://i.scdn.co/image/5779cc9a2ea0d1aa474a6e9575864d6d348acf97</imgUrl>
+    <albumUrl>https://open.spotify.com/album/6P9yO0ukhOx3dvmhGKeYoC</albumUrl>
   </album>
-  <album ID="138">
-    <albumName>Alive 2007</albumName>
-    <artist>Daft Punk</artist>
-    <year>2007</year>
-    <numTracks>13</numTracks>
-    <imgUrl>https://i.scdn.co/image/5434a3f4cb2b2bae89a92c9d59a921efef1d6058</imgUrl>
-    <albumUrl>https://open.spotify.com/album/7u6zL7kqpgLPISZYXNTgYk</albumUrl>
+  <album ID="141">
+    <albumName>The Beatles 1967 - 1970 (Remastered)</albumName>
+    <artist>The Beatles</artist>
+    <year>1973</year>
+    <numTracks>28</numTracks>
+    <imgUrl>https://i.scdn.co/image/c0fb10c0253dbd63dc063afb2dedc17922da72bb</imgUrl>
+    <albumUrl>https://open.spotify.com/album/5UtlwR5GMEM3XrF8GdzMmB</albumUrl>
   </album>
-  <album ID="139">
-    <albumName>A Thousand Suns</albumName>
-    <artist>Linkin Park</artist>
-    <year>2010</year>
-    <numTracks>16</numTracks>
-    <imgUrl>https://i.scdn.co/image/70442fa95b073991e2bee9e3b70500a06a0ca085</imgUrl>
-    <albumUrl>https://open.spotify.com/album/4i72nO5bkn1558MMvx29qE</albumUrl>
+  <album ID="142">
+    <albumName>The Studio Album Collection</albumName>
+    <artist>Disturbed</artist>
+    <year>2011</year>
+    <numTracks>63</numTracks>
+    <imgUrl>https://i.scdn.co/image/2bf5c5f012914abcdd30a8fbfd0f8e45bbab5d44</imgUrl>
+    <albumUrl>https://open.spotify.com/album/4TdIYEKiTCWlZ0tefxQAH8</albumUrl>
   </album>
 </albums>

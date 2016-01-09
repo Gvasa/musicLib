@@ -32,12 +32,10 @@
 	            <div class="intro-text">
 	                <div class="intro-lead-in">musicLib</div>
 	                <div class="intro-heading">Share and find new music</div>
-	                <a href="#library" class="page-scroll btn btn-xl">Show me</a>
+	                <a href="#library" class="page-scroll btn btn-xl">Library</a>
 	            </div>
 	        </div>
 	    </header>
-
-		</center>
 		 <section id="library" class="bg-light-gray">
 	        <div class="container">
 	          <div class="row">

@@ -13,8 +13,6 @@
 		$albumUrl = $_POST['albumUrl'];
 
 	} else {
-		echo "scraper";
-		echo $artist;
 		include('scraper.php');
 	}
 

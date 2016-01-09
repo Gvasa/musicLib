@@ -26,16 +26,19 @@
 				
 	?>
 	<body>
-
 		 <section id="library" >
 	        <div class="container" class="bg-light-gray">
-	          <div class="row">
-	                <div class="col-lg-12 text-center">
-	                    <h2 class="section-heading">Found Albums</h2>
-	                    <h3 class="section-subheading text-muted">Please select the album you want to add</h3>
-	                 
-	                </div>
-	            </div>		        
+	        	<div class="row">
+	        		<div class="col-lg-12 text-center">
+	        			<a href="http://localhost" class="btn btn-primary">Return to lib</a>
+	        		</div>
+	        	</div>
+		        <div class="row">
+		            <div class="col-lg-12 text-center">
+		            	<h2 class="section-heading">Found Albums</h2>
+		                <h3 class="section-subheading text-muted">Please select the album you want to add</h3> 
+		            </div>
+		        </div>		        
 				<?php 	
 					$edit_id = -1;
 					$foundAlbums = true;

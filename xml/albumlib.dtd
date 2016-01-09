@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!ELEMENT albums (album*)>
+
+<!ELEMENT album (albumName, artist, year, numTracks, imgUrl, albumUrl)>
+<!ATTLIST album ID #REQUIRED>
+
+<!ELEMENT albumName (#PCDATA)>
+<!ELEMENT artist (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT numTracks (#PCDATA)>
+<!ELEMENT imgUrl (#PCDATA)>
+<!ELEMENT albumUrl (#PCDATA)>

@@ -2,7 +2,7 @@
 	
 	$dom = new DomDocument('1.0', 'UTF-8');
 	$xslt = $dom->createProcessingInstruction('xml-stylesheet', 'type="text/xsl" href="albumlib.xsl"');
-
+	
 	if($edit_id == -1) 
 		$sqlQuery = "SELECT * FROM $tablename WHERE 1";
 	else {
