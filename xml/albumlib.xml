@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
+<!DOCTYPE albums SYSTEM "albums.dtd">
 <?xml-stylesheet type="text/xsl" href="albumlib.xsl"?>
 <albums>
   <album ID="133">
@@ -48,5 +49,21 @@
     <numTracks>63</numTracks>
     <imgUrl>https://i.scdn.co/image/2bf5c5f012914abcdd30a8fbfd0f8e45bbab5d44</imgUrl>
     <albumUrl>https://open.spotify.com/album/4TdIYEKiTCWlZ0tefxQAH8</albumUrl>
+  </album>
+  <album ID="143">
+    <albumName>(r)Evolution</albumName>
+    <artist>Hammerfall</artist>
+    <year>2014</year>
+    <numTracks>11</numTracks>
+    <imgUrl>https://i.scdn.co/image/f193ba4fab937098ac82ab13406c557dba875b49</imgUrl>
+    <albumUrl>https://open.spotify.com/album/4nyHlpnIOhn5mmUgpE8LBR</albumUrl>
+  </album>
+  <album ID="144">
+    <albumName>The Discovery</albumName>
+    <artist>Born Of Osiris</artist>
+    <year>2011</year>
+    <numTracks>15</numTracks>
+    <imgUrl>https://i.scdn.co/image/0a6d6df89fa6645271b2ac2abfd347ed0366d2e3</imgUrl>
+    <albumUrl>https://open.spotify.com/album/3jP8ic7uD7ItxhAwjT6Dxh</albumUrl>
   </album>
 </albums>

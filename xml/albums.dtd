@@ -3,7 +3,7 @@
 <!ELEMENT albums (album*)>
 
 <!ELEMENT album (albumName, artist, year, numTracks, imgUrl, albumUrl)>
-<!ATTLIST album ID #REQUIRED>
+<!ATTLIST album ID CDATA #REQUIRED>
 
 <!ELEMENT albumName (#PCDATA)>
 <!ELEMENT artist (#PCDATA)>

@@ -29,7 +29,11 @@
 
 	function saveToXml($output, $searchFor) {
 		
-		$dom = new DomDocument('1.0', 'UTF-8');
+		$dom = new DOMImplementation();
+		
+		$dtd = $dom->createDocumentType('albums', '', 'albums.dtd');
+		 // Creates a DOMDocument instance
+	    $dom = $dom->createDocument("", "", $dtd);
 		$xslt = $dom->createProcessingInstruction('xml-stylesheet', 'type="text/xsl" href="albumfound.xsl"');
 
 

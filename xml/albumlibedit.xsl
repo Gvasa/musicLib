@@ -71,6 +71,11 @@
                         <input class="btn btn-primary" type="submit" name="submit" value="Save changes"/>
                      </div>
                   </div>
+                  <div class="row">
+                     <div class="col-lg-12 text-center top-pad-4px">
+                        <a href="http://localhost" class="btn btn-primary">Return to Lib without saving</a>
+                     </div>
+                  </div>
                  </form>
 
             </div>

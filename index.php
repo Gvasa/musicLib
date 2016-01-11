@@ -3,7 +3,7 @@
 	    <meta charset="utf-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	    <base href="/">
-	    <title>music Lib</title>
+	    <title>DisQvery</title>
 	    <meta name="description" content="">
 	    <meta name="viewport" content="width=device-width">
 	    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -23,6 +23,7 @@
 	<body>
 	  
 	    <?php 
+	    	ini_set('display_errors', 1);
 	    	$edit_id = -1;
 	    	include ('dbconnect.php');
 			include ('savexml.php');
@@ -30,12 +31,13 @@
 	    <header>
 	        <div class="container" >
 	            <div class="intro-text">
-	                <div class="intro-lead-in">musicLib</div>
+	                <div class="intro-lead-in">DisQvery</div>
 	                <div class="intro-heading">Share and find new music</div>
 	                <a href="#library" class="page-scroll btn btn-xl">Library</a>
 	            </div>
 	        </div>
 	    </header>
+
 		 <section id="library" class="bg-light-gray">
 	        <div class="container">
 	          <div class="row">

@@ -1,6 +1,12 @@
 <?php	
+	ini_set('display_errors', 1);
+
+	//$dom = new DomDocument('1.0', 'UTF-8');
+	$dom = new DOMImplementation();
 	
-	$dom = new DomDocument('1.0', 'UTF-8');
+	$dtd = $dom->createDocumentType('albums', '', 'albums.dtd');
+	 // Creates a DOMDocument instance
+    $dom = $dom->createDocument("", "", $dtd);
 	$xslt = $dom->createProcessingInstruction('xml-stylesheet', 'type="text/xsl" href="albumlib.xsl"');
 	
 	if($edit_id == -1) 
@@ -9,6 +15,8 @@
 		$sqlQuery = "SELECT * FROM $tablename WHERE ID = " . $edit_id;
 		$xslt = $dom->createProcessingInstruction('xml-stylesheet', 'type="text/xsl" href="albumlibedit.xsl"');
 	}
+
+	
 
 	$dom->appendChild($xslt);
 	$root = $dom->appendChild($dom->createElement('albums'));

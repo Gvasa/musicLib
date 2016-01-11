@@ -13,6 +13,10 @@
 	$xmldoc = new DOMDocument();
 	$xmldoc->load('xml/albumlib.xml');
 
+	if (!$xmldoc->validate()) {
+    	echo "This document is valid!\n";
+	}
+
 	$xsl = new XSLTProcessor();
 	$xsl->importStyleSheet($xsldoc);
 	echo $xsl->transformToXML($xmldoc);
